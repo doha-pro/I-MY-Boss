@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMYBOSS</title>
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<body>
+    <header class="container">
+        <div class="upperHeader"></div>
+        <nav class=" nav-bar lowerHeader"></nav>
+    </header>
+
+    <a href="#" onclick="setLanguage('en')">English</a>
+    <a href="#" onclick="setLanguage('es')">Spanish</a>
+
+    <div id="div1"></div>
+    <script>
+        var en = {
+            welcome: "Welcome!"
+        }
+        var es = {
+            welcome: "Salut!"
+        }
+
+        if (localStorage.getItem('language') == null) {
+            setLanguage('en')
+        }
+        var language = localStorage.getItem('language')
+        setPage(language)
+
+
+
+        function setLanguage(lang) {
+            // location.reload();
+            localStorage.setItem('language', lang);
+            setPage(lang)
+        }
+
+        function setPage(lang) {
+            if (lang == "en") {
+                language = en
+            } else {
+                language = es
+            }
+            document.getElementById("div1").innerHTML = language.welcome;
+        }
+    </script>
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</body>
+
+</html> -->

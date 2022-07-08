@@ -1,0 +1,13 @@
+{
+    "homePage": {
+        "navbar": {
+            "domaines": "Domaines",
+            "accommodation": "HÉBERGEMENT",
+            "security": "SÉCURITÉ",
+            "development": "DÉVELOPPEMENT",
+            "marketing": "MARKETING"
+
+        }
+    }
+
+}
