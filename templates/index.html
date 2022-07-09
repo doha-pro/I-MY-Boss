@@ -10,14 +10,19 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
 />
+<!-- Swiper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.0/swiper-bundle.min.js" integrity="sha512-+oUge+PHyEv6R7xjWkZ9zeGWbRLIs24P6/2afAClEZi+kZ2vsK+Di4Ud9ON39uAbkkcCrewO3ayzk2765bbPpw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <link rel="stylesheet" href="../style/index.css">
 <link rel="stylesheet" href="../style/header.css">
 <link rel="stylesheet" href="../style/searchDomain.css">
+<link rel="stylesheet" href="../style/packages.css">
 <link rel="stylesheet" href="../style/responsive.css">
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <body>
+    <!--***************** Header************** -->
     <header id="header">
         <!-- Upper header -->
         <nav class="upperHeader container nav-bar bg-dark text-white">
@@ -198,12 +203,267 @@
             </ul>
         </nav>
     </header>
+    <!--**************Search Bar ****************  -->
     <section class="searchDomain bg-light">
         <h1 class=" text-primary" id="domianSearchHeader">Tout Commence Par Un Nom De Domaine</h1>
         <form action="" class="domianSearchBar">
             <input type="search" name="domainSearchBar" id="domainSearchBar">
             <button type="submit" class="bg-primary text-white" id="searchDomainButton">search</button>
         </form>
+    </section>
+    <!--********************* Packages Section*************** -->
+    <section class="packagesSection">
+        <div class="packagesheader">
+            <h1 id="packagesTiltle" class="">
+                Optimisé Pour Des Performances Optimales
+
+            </h1>
+            <h5 id="packagesDescription" class="text-secondary">Une nouvelle fonctionnalité apporte un maximum de puissance à tout le monde.
+
+            </h5>
+        </div>
+        <div class="packagesNavbar ">
+            <a href="" class=" bg-white nav-pill" id="">Web Hosting</a>
+            <a href="" class="bg-white nav-pill" id="">Web Security</a>
+            <a href="" class="bg-white nav-pill" id="">Web development</a>
+        </div>
+        <div id="webHostingPill">
+            <div id="wordpressHostingPackage" class="webHostingPackage">
+                <div>
+                    <div class="packageIcon">
+
+                        <img src="../assets/images/wordpressPackageIcon.png" alt="">
+                    </div>
+                    <div class="packageTitle">
+                        <h2 class="text-primary">
+                            Hébergement WordPress
+                        </h2>
+
+                    </div>
+                    <div class="packageSubTitle">
+
+                        <h4 class="text-secandary">
+                            À Partir de
+
+                        </h4>
+                    </div>
+                </div>
+                <div class="price">
+                    <span class="text-primary">
+                        <sup class="priceCurrency">
+
+                            € 
+                        </sup>
+                    <span class="priceValue">
+
+                            3.99
+                        </span>
+                    <sub class="pricePer">
+                            /mo
+
+                        </sub>
+                    </span>
+                </div>
+                <div class="webHostingPackageButton">
+                    <a href="" class="text-white webHostingPackageButtonText  bg-darker">
+                        COMPARER
+                    </a>
+                </div>
+                <div class="packageFeatures">
+                    <span class="text-primary">
+                        Commencer avec :
+                    </span>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>
+                                1 Site Web
+                            </span>
+
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>
+
+                                30 GB de stockage
+                            </span>
+
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>
+
+                                Sauvegarde journalière
+                            </span>
+
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>
+                                Pour les sites simples
+
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="sharedHostingPackage" class="webHostingPackage bg-light">
+                <div>
+                    <div class="packageIcon">
+
+                        <img src="../assets/images/sharedHostingPackageIcon.png" alt="">
+                    </div>
+                    <div class="packageTitle">
+                        <h2 class="text-primary">
+                            Hébergement WordPress
+                        </h2>
+
+                    </div>
+                    <div class="packageSubTitle">
+
+                        <h4 class="text-secandary">
+                            À Partir de
+
+                        </h4>
+                    </div>
+                </div>
+                <div class="price">
+                    <span class="text-primary">
+                        <sup class="priceCurrency">
+
+                            € 
+                        </sup>
+                    <span class="priceValue">
+
+                            3.99
+                        </span>
+                    <sub class="pricePer">
+                            /mo
+
+                        </sub>
+                    </span>
+                </div>
+                <div class="webHostingPackageButton">
+                    <a href="" class="text-white webHostingPackageButtonText  bg-darker">
+                        COMPARER
+                    </a>
+                </div>
+                <div class="packageFeatures">
+                    <span class="text-primary">Commencer avec :</span>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>
+                                1 Site Web
+                            </span>
+
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>
+
+                                30 GB de stockage
+                            </span>
+
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>
+
+                                Sauvegarde journalière
+                            </span>
+
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>
+                                Pour les sites simples
+
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="businessHostingPackage" class="webHostingPackage">
+                <div>
+                    <div class="packageIcon">
+
+                        <img src="../assets/images/businessHositingPackageIcon.png" alt="">
+                    </div>
+                    <div class="packageTitle">
+                        <h2 class="text-primary">
+                            Hébergement WordPress
+                        </h2>
+
+                    </div>
+                    <div class="packageSubTitle">
+
+                        <h4 class="text-secandary">
+                            À Partir de
+
+                        </h4>
+                    </div>
+                </div>
+                <div class="price">
+                    <span class="text-primary">
+                        <sup class="priceCurrency">
+
+                            € 
+                        </sup>
+                    <span class="priceValue">
+
+                            3.99
+                        </span>
+                    <sub class="pricePer">
+                            /mo
+
+                        </sub>
+                    </span>
+                </div>
+                <div class="webHostingPackageButton">
+                    <a href="" class="text-white webHostingPackageButtonText  bg-darker">
+                        COMPARER
+                    </a>
+                </div>
+                <div class="packageFeatures">
+                    <span class="text-primary">Commencer avec :</span>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>
+                                1 Site Web
+                            </span>
+
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>
+
+                                30 GB de stockage
+                            </span>
+
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>
+
+                                Sauvegarde journalière
+                            </span>
+
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check"></i>
+                            <span>
+                                Pour les sites simples
+
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="webSecurityPill"></div>
+            <div id="webDevelopmentPill"></div>
     </section>
     <script src="../script/index.js"></script>
 

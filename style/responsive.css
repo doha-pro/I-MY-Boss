@@ -1,9 +1,3 @@
-/* Responsive  */
-
-
-/* Extra small devices (phones, 600px and down) */
-
-
 /* Upper Header */
 
 @media(max-width: 800px) {
@@ -78,5 +72,43 @@
     }
 }
 
+@media all and (max-width:599px) {
+    /* navigation */
+    /* Search Domain */
+    #domianSearchHeader {
+        font-size: 23px;
+    }
+    #searchDomainButton {
+        width: 20%;
+        padding: 2%;
+        font-size: 1.2rem;
+    }
+    /* Packages */
+    #packagesTiltle {
+        font-size: 23px;
+    }
+    #packagesDescription {
+        font-size: large;
+    }
+    #webHostingPill {
+        max-width: 599px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .webHostingPackage {
+        width: 100%;
+        padding-top: 50px;
+    }
+    .packagesNavbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-pill {
+        display: block;
+        width: 50%
+    }
+}
 
-/*  */
+
+/*  Hosting Pill */
