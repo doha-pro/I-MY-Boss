@@ -1,10 +1,10 @@
 {
     "homePage": {
         "navbar": {
-            "domains": "DOMAINES",
-            "hosting": "HÉBERGEMENT",
-            "security": "SÉCURITÉ",
-            "development": "DÉVELOPPEMENT",
+            "domains": "DOMAINS",
+            "hosting": "HOSTING",
+            "security": "SECURITY",
+            "development": "DEVELOPMENT",
             "marketing": "MARKETING",
             "domainsMenu": {
                 "domianRegisteration": {

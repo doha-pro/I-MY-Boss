@@ -11,6 +11,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
 />
 <link rel="stylesheet" href="../style/index.css">
+<link rel="stylesheet" href="../style/header.css">
+<link rel="stylesheet" href="../style/searchDomain.css">
+<link rel="stylesheet" href="../style/responsive.css">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <body>
     <header id="header">
@@ -102,81 +107,89 @@
             <input type="checkbox" class="input" id="btn">
             <ul>
                 <li>
-                    <label for="btn-1" class="show">Domains +</label>
-                    <a href="" id="domains">Domains
-                        
-                        <i class="fa-solid fa-chevron-down"></i>
+                    <label for="btn-1" class="show" id="domainsLabel"> 
+                         
+                    </label>
+                    <a href="" id="domains">
+
                     </a>
+
                     <input type="checkbox" id="btn-1" class="input">
 
-                    <ul>
-                        <li>one</li>
-                        <li>two</li>
-                        <li>three</li>
+                    <ul id="domainsMenu">
+                        <li id="domianRegisteration"></li>
+                        <li id="transferOfDomains"></li>
+                        <li id="serachWhoIs"></li>
+                        <li id="domianPolicy"></li>
                     </ul>
                 </li>
                 <li>
-                    <label for="btn-2" class="show">Accomodations</label>
-                    <a href="" id="accomodation">Accomodation
+                    <label for="btn-2" class="show" id="hostingLabel">Hosting
+                         
+                    </label>
+                    <a href="" id="hosting">Hosting
                         
-                        <i class="fa-solid fa-chevron-down"></i>
+                         
                     </a>
                     <input type="checkbox" id="btn-2" class="input">
 
                     <ul>
-                        <li>one</li>
-                        <li>two</li>
-                        <li>three</li>
+
                     </ul>
                 </li>
                 <li>
-                    <label for="btn-3" class="show">Security</label>
+                    <label for="btn-3" class="show" id="securityLabel">Security
+                         
+                    </label>
                     <a href="" id="security">Security
-                        <i class="fa-solid fa-chevron-down"></i>
+                         
                     </a>
                     <input type="checkbox" id="btn-3" class="input">
 
                     <ul>
-                        <li>one</li>
-                        <li>two</li>
-                        <li>three</li>
+
                     </ul>
                 </li>
                 <li>
-                    <label for="btn-4" class="show">Development</label>
+                    <label for="btn-4" class="show" id="developmentLabel">Development
+                         
+                    </label>
                     <a href="" id="development">Development
-                        <i class="fa-solid fa-chevron-down"></i>
+                         
                     </a>
                     <input type="checkbox" id="btn-4" class="input">
                     <ul>
-                        <li>one</li>
-                        <li>two</li>
-                        <li>three</li>
+
                     </ul>
                 </li>
                 <li>
-                    <label for="btn-5" class="show" Marketing</label>
+                    <label for="btn-5" class="show" id="marketingLabel">
+                        Marketing
+                         
+                    </label>
                     <a href="" id="marketing">Marketing
                         
-                        <i class="fa-solid fa-chevron-down"></i>
+                         
                     </a>
                     <input type="checkbox" id="btn-5" class="input">
                 </li>
                 <li>
-                    <label for="btn-6" class="show">Language</label>
-                    <a href="" id="language"><i class="fa-solid fa-globe"></i> En
+                    <label for="btn-6" class="show" id="languageLabel">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </label>
+                    <a href="" id="language"><i class="fa-solid fa-globe"></i> 
                         <i class="fa-solid fa-chevron-down"></i>
                     </a>
                     <input type="checkbox" id="btn-6" class="input">
                     <ul>
                         <li>
-                            <a>
+                            <a onclick="setLanguage('en')">
                                 Engilsh
                                 
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a onclick="setLanguage('fr')">
                                 French
                             </a>
                         </li>
@@ -185,7 +198,14 @@
             </ul>
         </nav>
     </header>
-
+    <section class="searchDomain bg-light">
+        <h1 class=" text-primary" id="domianSearchHeader">Tout Commence Par Un Nom De Domaine</h1>
+        <form action="" class="domianSearchBar">
+            <input type="search" name="domainSearchBar" id="domainSearchBar">
+            <button type="submit" class="bg-primary text-white" id="searchDomainButton">search</button>
+        </form>
+    </section>
+    <script src="../script/index.js"></script>
 
 
 </body>

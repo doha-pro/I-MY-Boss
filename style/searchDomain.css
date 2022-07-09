@@ -1,0 +1,31 @@
+    .searchDomain h1 {
+        margin: 0 15px;
+        padding: 30px;
+        text-align: center;
+        font-family: "Poppins", Sans-serif;
+        font-size: 33px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    
+    .domianSearchBar {
+        padding-bottom: 30px
+    }
+    
+    #searchDomainButton {
+        position: relative;
+        width: 7%;
+        font-size: 18px;
+        padding: 0.5%;
+        right: -21%;
+        border-radius: 15px;
+    }
+    
+    #domainSearchBar {
+        position: relative;
+        width: 50%;
+        left: 21%;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 25px;
+    }

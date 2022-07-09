@@ -1,0 +1,82 @@
+/* Responsive  */
+
+
+/* Extra small devices (phones, 600px and down) */
+
+
+/* Upper Header */
+
+@media(max-width: 800px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* Lower Header */
+
+@media all and (max-width:1200px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .lowerHeader ul {
+        background-color: var(--primary);
+        margin-right: 0px;
+        float: left;
+    }
+    .nav-logo {
+        padding-left: 30px;
+        width: 100%;
+    }
+    .lowerHeader ul li,
+    .lowerHeader ul ul li {
+        background-color: var(--primary);
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    .lowerHeader ul ul {
+        top: 70px;
+        position: static;
+        border-top: none;
+        float: none;
+        display: none;
+        opacity: 1;
+        visibility: visible
+    }
+    .show {
+        display: block;
+        font-size: 18px;
+        padding: 0 20px;
+        line-height: 70px;
+        cursor: pointer;
+    }
+    .show:hover {
+        color: var(--white)
+    }
+    .icon {
+        margin-top: 20px;
+        color: var(--primary);
+        display: block;
+        position: absolute;
+        right: 40px;
+        line-height: 70px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .lowerHeader ul a:hover {
+        box-shadow: none;
+    }
+    .show+a,
+    .lowerHeader ul {
+        display: none;
+    }
+    [id^=btn]:checked+ul {
+        display: block;
+    }
+}
+
+
+/*  */

@@ -1,0 +1,132 @@
+/* ----------- Header---------- */
+
+
+/* ----------- Upper Header---------- */
+
+.upperHeader {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s;
+}
+
+.nav-bar,
+.nav-bar>div {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar {
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.upperHeader>div>ul>a {
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: var(--primary)
+}
+
+.contact {
+    font-size: 13px;
+}
+
+.socialMedia {
+    border-right: 2px solid var(--darker)
+}
+
+
+/* ----------------LowerHeader----------------- */
+
+.lowerHeader {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px
+}
+
+.lowerHeader:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.nav-logo {
+    padding-top: 15px;
+    float: left;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-left: 60px;
+}
+
+.lowerHeader ul {
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+}
+
+.lowerHeader ul li {
+    float: left;
+    display: block;
+    background-color: var(--white);
+    margin: 0 5px;
+}
+
+.lowerHeader ul li a {
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+.lowerHeader ul li a:hover {
+    color: var(--white);
+    background-color: var(--primary);
+    box-shadow: 0 0 5px var(--secondary);
+}
+
+.lowerHeader ul ul {
+    position: absolute;
+    top: 90px;
+    transition: top .3s;
+    border-top: 3px solid var(--primary);
+    background-color: var(--primary);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.lowerHeader ul li:hover>ul {
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.lowerHeader ul ul li {
+    font-size: 16px;
+    position: relative;
+    margin: 0;
+    width: 150px;
+    float: none;
+    display: list-item;
+    color: var(--white);
+    background-color: var(--primary);
+    padding-bottom: 2px;
+}
+
+.lowerHeader ul ul li a {
+    line-height: 50px;
+}
+
+.lowerHeader ul ul li a:hover {
+    color: var(--white);
+    background-color: var(--primary);
+    box-shadow: none;
+}
+
+.show,
+.icon,
+.input {
+    display: none;
+}
