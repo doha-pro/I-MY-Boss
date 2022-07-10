@@ -36,28 +36,33 @@
     border-radius: 25px;
 }
 
-.nav-pill:hover {
-    background-color: var(--primary);
-    color: var(--white);
+#webHostingPill {
+    display: flex;
 }
 
-#webHostingPill {
+#webSecurityPill {
+    display: none;
+}
+
+#webHostingPill,
+#webSecurityPill {
     text-align: center;
     max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     justify-content: center;
     font-family: 'Karla', sans-serif;
 }
 
-.webHostingPackage {
+.webHostingPackage,
+.webSecurityPackage {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 40px;
-    height: 600px;
+    height: 500px;
     /* width: 30% */
 }
 
@@ -70,11 +75,6 @@
     font-size: 16px;
     font-weight: 400;
     color: #7E7E7E;
-}
-
-.webHostingPackageButton {
-    margin-top: 25px;
-    margin-bottom: 25px;
 }
 
 .price {
@@ -91,7 +91,20 @@
     font-weight: 600;
 }
 
-.webHostingPackageButtonText {
+.webHostingPackageButton,
+.webSecurityPackageButton {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.webHostingPackageButtonText:hover,
+.webSecurityPackageButtonText:hover {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.webHostingPackageButtonText,
+.webSecurityPackageButtonText {
     font-family: "Montserrat", Sans-serif;
     font-size: 15px;
     font-weight: 500;
@@ -115,7 +128,81 @@
     line-height: 25px;
 }
 
+.packageFeatures ul li:hover {
+    color: var(--primary)
+}
+
 .packageFeatures>span {
     font-size: 20px;
     font-weight: 400;
+}
+
+
+/* Web development Pill  */
+
+#webDevelopmentPill {
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+}
+
+#webDevelopmentForm {
+    background-color: var(--light);
+    border-radius: 20px;
+}
+
+.formSection {
+    margin: 15px;
+}
+
+.formSection>input,
+.formSection>select {
+    /* position: relative; */
+    background-color: var(--light);
+    width: 50%;
+    /* left: 21%; */
+    padding: 5px;
+    font-size: 16px;
+    /* border-radius: 25px; */
+    border: 1px solid #818a91;
+}
+
+.formRecaptcha {
+    text-align: left;
+    width: 35%;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    position: relative;
+    left: 30%;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: inset 0px 1px 1px rgb(0 0 0 / 10%);
+}
+
+.formRecaptcha>input {
+    border: 2px solid #b2b2b2;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 2px solid #c1c1c1;
+    font-size: 1px;
+    height: 24px;
+    position: absolute;
+    width: 24px;
+}
+
+.formSubmit>input {
+    width: 30%;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.formSubmit>input:hover {
+    border-color: var(--primary);
+    background-color: var(--primary);
 }

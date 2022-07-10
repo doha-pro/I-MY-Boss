@@ -72,7 +72,7 @@
     }
 }
 
-@media all and (max-width:599px) {
+@media all and (max-width:749px) {
     /* navigation */
     /* Search Domain */
     #domianSearchHeader {
@@ -90,14 +90,11 @@
     #packagesDescription {
         font-size: large;
     }
-    #webHostingPill {
+    #webHostingPill,
+    #webSecurityPill {
         max-width: 599px;
         flex-direction: column;
         align-items: center;
-    }
-    .webHostingPackage {
-        width: 100%;
-        padding-top: 50px;
     }
     .packagesNavbar {
         display: flex;
