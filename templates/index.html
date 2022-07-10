@@ -17,6 +17,7 @@
 <link rel="stylesheet" href="../style/header.css">
 <link rel="stylesheet" href="../style/searchDomain.css">
 <link rel="stylesheet" href="../style/packages.css">
+<link rel="stylesheet" href="../style/middleSection.css">
 <link rel="stylesheet" href="../style/responsive.css">
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -224,7 +225,7 @@
         </div>
         <div class="packagesNavbar ">
             <a onClick="packageNavbar
-            ('webHostingPill')" id="webHostingPillText" class=" bg-primary nav-pill" id="">Web Hosting</a>
+            ('webHostingPill')" id="webHostingPillText" class=" bg-primary  nav-pill" style="color:white;" id="">Web Hosting</a>
             <a onClick="packageNavbar('webSecurityPill')" id="webSecurityPillText" class="bg-white nav-pill" id="">Web Security</a>
             <a onClick="packageNavbar('webDevelopmentPill')" id="webDevelopmentPillText" class="bg-white nav-pill" id="">Web development</a>
         </div>
@@ -816,27 +817,26 @@
                           <option value="audi">Audi</option>
                         </select>
                     </div>
-                </div>
-                <div class="formSection">
+                    <div class="formSection">
 
-                    <label for="webDevelopmenteWebsiteInput" id="webDevelopmenteWebsiteLabel">Website</label>
-                    <input type="text" name="webDevelopmenteWebsiteInput">
-                </div>
-                <div class="formSection">
+                        <label for="webDevelopmenteWebsiteInput" id="webDevelopmenteWebsiteLabel">Website</label>
+                        <input type="text" name="webDevelopmenteWebsiteInput">
+                    </div>
+                    <div class="formSection">
 
-                    <label for="webDevelopmenteFileInput" id="webDevelopmenteFileLabel">Specifications</label>
-                    <input type="file" name="webDevelopmenteFileInput">
+                        <label for="webDevelopmenteFileInput" id="webDevelopmenteFileLabel">Specifications</label>
+                        <input type="file" name="webDevelopmenteFileInput">
+                    </div>
+                    <!-- <div class="formRecaptcha">
+                        <input type="checkbox" name="webDevelopmenteReCaptchaInput">
+                       
+                        <label for="webDevelopmenteReCaptchaInput" id="webDevelopmenteReCaptchaLabel">I'm not a robot</label>
+                    </div> -->
+                    <div class="formSubmit">
+                        <input type="submit" value="Submit" class="text-white bg-darker">
+                    </div>
                 </div>
-                <div class="formRecaptcha">
 
-                    <input type="checkbox" name="webDevelopmenteReCaptchaInput">
-                    <br>
-                    <br>
-                    <label for="webDevelopmenteReCaptchaInput" id="webDevelopmenteReCaptchaLabel">I'm not a robot</label>
-                </div>
-                <div class="formSubmit">
-                    <input type="submit" value="Submit" class="text-white bg-darker">
-                </div>
 
 
             </form>
@@ -844,10 +844,117 @@
 
         </div>
     </section>
-    <script src="../script/index.js"></script>
-    <script src="../script/packages.js"></script>
 
+    <!-- Middle Section -->
+    <section id="simpleAndIntuitveSection" class="descriptionSection">
+        <div class="sectionText">
+            <header>
+                <div class="subHeader">
+                    <span>
+                        SIMPLE ET INTUITIF
+                    </span>
+                </div>
+                <div class="sectionHeader">
+                    <span>
+                        Facile à installer
+                    </sp>
+                </div>
+            </header>
+            <article>
+                <p>
+                    La mise en ligne de votre site Web est aussi simple qu'un clic sur un bouton. Tout ce dont vous avez besoin - fourni de manière claire.
+                </p>
+            </article>
+        </div>
+        <div class="imgSection">
+            <div><img src="../assets/images/simpleAndIntuitive.png" alt=""></div>
+        </div>
+    </section>
+
+    <section id="performanceAndSpeedSection" class="descriptionSection">
+        <div class="imgSection">
+            <div><img src="../assets/images/performanceAndSpeed.png" alt=""></div>
+        </div>
+        <div class="sectionText">
+            <header>
+                <div class="subHeader">
+                    <span>
+                        PERFORMANCES ET VITESSE
+                    </span>
+                </div>
+                <div class="sectionHeader">
+                    <span>
+                        Sites Web simplement rapides
+                    </sp>
+                </div>
+            </header>
+            <article>
+                <p>
+                    La vitesse du site Web peut ralentir ou développer votre entreprise. Faites plaisir à vos visiteurs avec un site Web ultra-rapide.
+    
+                </p>
+            </article>
+        </div>
+        
+    </section>
+    
+
+    <section id="performanceAndSpeedSectionResponsive" class="descriptionSection">
+        <div class="sectionText">
+            <header>
+                <div class="subHeader">
+                    <span>
+                        PERFORMANCES ET VITESSE
+                    </span>
+                </div>
+                <div class="sectionHeader">
+                    <span>
+                        Sites Web simplement rapides
+                    </sp>
+                </div>
+            </header>
+            <article>
+                <p>
+                    La vitesse du site Web peut ralentir ou développer votre entreprise. Faites plaisir à vos visiteurs avec un site Web ultra-rapide.
+    
+                </p>
+            </article>
+        </div>
+        <div class="imgSection">
+            <div><img src="../assets/images/performanceAndSpeed.png" alt=""></div>
+        </div>
+    </section>
+    
+    
+    <section id="flexableAndScalableSection" class="descriptionSection">
+        <div class="sectionText">
+            <header>
+                <div class="subHeader">
+                    <span>
+                        FLEXIBLE ET ÉVOLUTIF
+                    </span>
+                </div>
+                <div class="sectionHeader">
+                    <span>
+                        De la micro à la grande échelle
+                    </sp>
+                </div>
+            </header>
+            <article>
+                <p>
+                    Des projets différents nécessitent des technologies différentes. Choisissez un forfait qui correspond à vos besoins actuels.
+    
+    
+                </p>
+            </article>
+        </div>
+        <div class="imgSection">
+            <div><img src="../assets/images/flexableScalable.png" alt=""></div>
+        </div>
+    </section>
 
 </body>
+<script src="../script/index.js"></script>
+<script src="../script/packages.js"></script>
 
 </html>

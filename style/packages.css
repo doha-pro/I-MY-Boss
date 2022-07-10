@@ -156,8 +156,34 @@
     border-radius: 20px;
 }
 
+#webDevelopmentForm div {
+    position: relative;
+    left: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#webDevelopmentForm div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#webDevelopmentForm div div label {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #bfbfbf;
+    /* margin-bottom: 2%; */
+    /* justify-self: left; */
+    text-align: left;
+}
+
 .formSection {
-    margin: 15px;
+    margin: 12px;
 }
 
 .formSection>input,
@@ -172,16 +198,20 @@
     border: 1px solid #818a91;
 }
 
-.formRecaptcha {
-    text-align: left;
+
+/* .formRecaptcha {
     width: 35%;
-    border: 1px solid #000000;
+    border: 1px solid #bfbfbf;
     border-radius: 2px;
-    position: relative;
-    left: 30%;
     padding: 10px;
     margin: 15px;
     box-shadow: inset 0px 1px 1px rgb(0 0 0 / 10%);
+}
+
+#webDevelopmenteReCaptchaLabel {
+    position: relative;
+    left: 15%;
+    color: #000000
 }
 
 .formRecaptcha>input {
@@ -193,10 +223,10 @@
     height: 24px;
     position: absolute;
     width: 24px;
-}
+} */
 
 .formSubmit>input {
-    width: 30%;
+    width: 40%;
     padding: 5px;
     font-size: 20px;
     font-weight: 500;
