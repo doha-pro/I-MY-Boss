@@ -89,7 +89,7 @@
 
 .lowerHeader ul li a:hover {
     color: var(--white);
-    background-color: var(--primary);
+    background-color: var(--dark);
     box-shadow: 0 0 5px var(--secondary);
 }
 
