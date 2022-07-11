@@ -32,8 +32,8 @@
 
                 }
             },
-            "HostingMenu": {
-                "WordPress Hosting": {
+            "hostingMenu": {
+                "wordPressHosting": {
 
                     "title": " Hébergement WordPress",
                     "description": "À partir de 3,99€ par mois!",
@@ -49,14 +49,49 @@
                     "description": "À partir de 24,99€ par mois!",
                     "button": "COMPARER"
                 },
-                "HostingEmail": {
+                "emailHosting": {
                     "title": "Hébergement de Messagerie",
                     "description": "À partir de 2,13€ par mois!",
                     "button": "COMPARER"
                 }
 
 
+            },
+            "securityMenu": {
+                "SSLCertificates": {
+
+                    "title": "Certificats SSL",
+                    "description": "À partir de 23,60€ par an!",
+
+                    "button": "COMPARER"
+                },
+                "emailFiltering": {
+                    "title": "Filtrage de courriels",
+                    "description": "À partir de 2.53€ par mois!",
+                    "button": "COMPARER"
+                },
+                "VPNetworks": {
+                    "title": "Réseaux VP",
+                    "description": "À partir de 10.15€ par mois!",
+                    "button": "COMPARER"
+                },
+
+                "backups": {
+                    "title": "Backups",
+                    "description": "À partir de 1.76€ par mois!",
+                    "button": "COMPARER"
+                }
+
+            },
+            "developmentMenu": {
+                "WPdevelopment": {
+                    "title": "Développement WP",
+                    "description": "Recevez un devis sous 48 h!",
+                    "button": "DEMANDER UN DEVIS"
+                }
             }
-        }
+
+        },
+        "domainSearchHeader": "Tout Commence Par Un Nom De Domaine"
     }
 }

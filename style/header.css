@@ -101,9 +101,11 @@
     background-color: var(--primary);
     opacity: 0;
     visibility: hidden;
+    padding-left: 0px;
 }
 
 .lowerHeader ul li:hover>ul {
+    z-index: 1;
     top: 70px;
     opacity: 1;
     visibility: visible;
@@ -113,21 +115,24 @@
     font-size: 16px;
     position: relative;
     margin: 0;
-    width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* width: 150px; */
     float: none;
     display: list-item;
     color: var(--white);
     background-color: var(--primary);
-    padding-bottom: 2px;
+    padding-bottom: 5px;
+    margin-bottom: 3px;
 }
 
-.lowerHeader ul ul li a {
+.lowerHeader ul ul li {
     line-height: 50px;
 }
 
-.lowerHeader ul ul li a:hover {
+.lowerHeader ul ul li:hover {
     color: var(--white);
-    background-color: var(--primary);
+    background-color: var(--dark);
     box-shadow: none;
 }
 

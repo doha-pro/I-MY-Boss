@@ -8,55 +8,91 @@
             "marketing": "MARKETING",
             "domainsMenu": {
                 "domianRegisteration": {
-                    "title": "Enregistrement de Domaines",
+                    "title": "Domain Registration",
                     "description": "À partir de 15,50 € par an !",
                     "button": "ENREGISTRER"
                 },
                 "transferOfDomains": {
-                    "title": "Transfert de Domaines",
+                    "title": "Transfer of Domains",
                     "description": "À partir de 15,50 € par an !",
                     "button": "TRANSFÉRER"
 
                 },
                 "serachWhoIs": {
-                    "title": "Recherche QUI-EST",
+                    "title": "Search Who Is ",
                     "description": "Trouver le propriétaire d'un domaine !",
                     "button": "CHERCHER"
 
 
                 },
                 "domianPolicy": {
-                    "title": "Politique des Domaines",
+                    "title": "Domains Policy",
                     "description": "Notre politique",
                     "button": "EN SAVOIR PLUS"
 
                 }
             },
-            "HostingMenu": {
-                "WordPress Hosting": {
+            "hostingMenu": {
+                "wordPressHosting": {
 
-                    "title": " Hébergement WordPress",
+                    "title": "Wordpress Hosting ",
                     "description": "À partir de 3,99€ par mois!",
                     "button": " COMPARER"
                 },
                 "sharedWebHosting": {
-                    "title": "Hébergement Web Partagé",
+                    "title": "Shared Web Hosting",
                     "description": "À partir de 7,99€ par mois!",
                     "button": "COMPARER"
                 },
                 "businessWebHosting": {
-                    "title": "Hébergement Web Business",
+                    "title": "Business web hosting",
                     "description": "À partir de 24,99€ par mois!",
                     "button": "COMPARER"
                 },
-                "HostingEmail": {
-                    "title": "Hébergement de Messagerie",
+                "emailHosting": {
+                    "title": "Email Hosting",
                     "description": "À partir de 2,13€ par mois!",
                     "button": "COMPARER"
                 }
 
 
+            },
+            "securityMenu": {
+                "SSLCertificates": {
+
+                    "title": "SSL Certificates",
+                    "description": "À partir de 23,60€ par an!",
+
+                    "button": "COMPARER"
+                },
+                "emailFiltering": {
+                    "title": "Email Filtering",
+                    "description": "À partir de 2.53€ par mois!",
+                    "button": "COMPARER"
+                },
+                "VPNetworks": {
+                    "title": "VP networks",
+                    "description": "À partir de 10.15€ par mois!",
+                    "button": "COMPARER"
+                },
+
+                "backups": {
+                    "title": "Backups",
+                    "description": "À partir de 1.76€ par mois!",
+                    "button": "COMPARER"
+                }
+
+            },
+            "developmentMenu": {
+                "WPdevelopment": {
+                    "title": " WP Development",
+                    "description": "Recevez un devis sous 48 h!",
+                    "button": "DEMANDER UN DEVIS"
+                }
             }
+        },
+        "domainSearchBar": {
+            "header": "It All Starts With A Domain Name"
         }
     }
 }
