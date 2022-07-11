@@ -3,7 +3,7 @@
 }
 
 .descriptionSection {
-    /* max-width: 1114px; */
+    max-width: 1114px;
     display: flex;
     flex-direction: row;
     margin-left: auto;
@@ -46,5 +46,5 @@
 }
 
 .imgSection div {
-    /* width: 50%; */
+    width: 50%;
 }
