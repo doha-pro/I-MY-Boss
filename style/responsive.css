@@ -21,21 +21,32 @@
         justify-content: space-between;
     }
     .lowerHeader ul {
-        background-color: var(--primary);
-        margin-right: 0px;
+        background-color: var(--darker);
+        opacity: 0.8;
+        margin-right: auto;
+        margin-left: auto;
         float: left;
+        position: absolute;
+        top: 80%;
+        z-index: 101;
+        width: 92vw;
     }
     .nav-logo {
         padding-left: 0px;
     }
     .lowerHeader ul li,
     .lowerHeader ul ul li {
-        background-color: var(--primary);
+        background-color: var(--darker);
         text-align: center;
         display: block;
         width: 100%;
+        color: var(--white)
     }
     .lowerHeader ul ul {
+        margin-left: -10%;
+        margin-right: -10%;
+        background-color: var(--darker);
+        color: var(--white);
         top: 70px;
         position: static;
         border-top: none;

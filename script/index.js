@@ -19,6 +19,7 @@ function setLanguage(lang) {
 
 }
 
+
 function setPage(lang) {
 
     $.ajax({
