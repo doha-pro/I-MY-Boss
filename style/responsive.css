@@ -26,7 +26,7 @@
         float: right;
         position: absolute;
         top: 80%;
-        right: 0%;
+        right: 5%;
         z-index: 101;
         width: 50vw;
     }
@@ -42,8 +42,6 @@
         color: var(--white);
     }
     .lowerHeader ul ul {
-        margin-left: -14%;
-        margin-right: -12%;
         background-color: var(--darker);
         color: var(--white);
         top: 70px;
@@ -52,7 +50,8 @@
         float: none;
         display: none;
         opacity: 1;
-        visibility: visible
+        visibility: visible;
+        width: auto;
     }
     .lowerHeader ul li a {
         color: var(--white);
