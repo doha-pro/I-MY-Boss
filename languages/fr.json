@@ -92,6 +92,8 @@
             }
 
         },
-        "domainSearchHeader": "Tout Commence Par Un Nom De Domaine"
+        "domainSearchBar": {
+            "header": "Tout Commence Par Un Nom De Domaine"
+        }
     }
 }
