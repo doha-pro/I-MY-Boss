@@ -3,7 +3,7 @@
 }
 
 .descriptionSection {
-    max-width: 1114px;
+    /* max-width: 1114px; */
     display: flex;
     flex-direction: row;
     margin-left: auto;
@@ -43,4 +43,8 @@
 .sectionText article p {
     color: #7E7E7E;
     font-size: 20px;
+}
+
+.imgSection div {
+    /* width: 50%; */
 }

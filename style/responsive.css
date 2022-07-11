@@ -124,7 +124,10 @@
         justify-content: center;
         text-align: center;
     }
-    .imgSection div {
+    .imgSection div img {
         text-align: center;
+    }
+    .imgSection div img {
+        width: 100%;
     }
 }
