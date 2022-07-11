@@ -26,10 +26,7 @@
         float: left;
     }
     .nav-logo {
-        /* padding-left: 30px; */
-        /* width: 100%; */
-        /* display: flex; */
-        /* align-self: flex-start; */
+        padding-left: 30px;
     }
     .lowerHeader ul li,
     .lowerHeader ul ul li {
