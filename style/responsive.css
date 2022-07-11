@@ -36,7 +36,7 @@
     .lowerHeader ul li,
     .lowerHeader ul ul li {
         background-color: var(--darker);
-        text-align: center;
+        text-align: left;
         display: block;
         width: 100%;
         color: var(--white);
