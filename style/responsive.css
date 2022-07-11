@@ -23,13 +23,12 @@
     .lowerHeader ul {
         background-color: var(--darker);
         opacity: 0.8;
-        margin-right: auto;
-        margin-left: auto;
-        float: left;
+        float: right;
         position: absolute;
         top: 80%;
+        right: 0%;
         z-index: 101;
-        width: 92vw;
+        width: 50vw;
     }
     .nav-logo {
         padding-left: 0px;
@@ -40,11 +39,11 @@
         text-align: center;
         display: block;
         width: 100%;
-        color: var(--white)
+        color: var(--white);
     }
     .lowerHeader ul ul {
-        margin-left: -10%;
-        margin-right: -10%;
+        margin-left: -14%;
+        margin-right: -12%;
         background-color: var(--darker);
         color: var(--white);
         top: 70px;
@@ -54,6 +53,9 @@
         display: none;
         opacity: 1;
         visibility: visible
+    }
+    .lowerHeader ul li a {
+        color: var(--white);
     }
     .show {
         display: block;
