@@ -47,6 +47,8 @@
 
 .askForHelp .content .buttons {
     align-self: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .askForHelp .content .buttons span {

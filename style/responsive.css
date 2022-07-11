@@ -1,166 +1,167 @@
-/* Upper Header */
-
-@media(max-width: 800px) {
-    .nav-bar {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-
-/* Lower Header */
-
-@media all and (max-width:1200px) {
-    .nav-bar {
-        flex-direction: column;
-        align-items: center;
-    }
-    .lowerHeader {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .lowerHeader ul {
-        background-color: var(--darker);
-        opacity: 0.8;
-        float: right;
-        position: absolute;
-        top: 80%;
-        right: 0%;
-        z-index: 101;
-        width: 80vw;
-    }
-    .nav-logo {
-        padding-left: 0px;
-    }
-    .lowerHeader ul li,
-    .lowerHeader ul ul li {
-        background-color: var(--darker);
-        text-align: center;
-        display: block;
-        width: 100%;
-        color: var(--white);
-    }
-    .lowerHeader ul ul {
-        background-color: var(--darker);
-        color: var(--white);
-        top: 70px;
-        position: static;
-        border-top: none;
-        float: none;
-        display: none;
-        opacity: 1;
-        visibility: visible;
-        width: auto;
-    }
-    .lowerHeader ul li a {
-        color: var(--white);
-    }
-    .show {
-        display: block;
-        font-size: 18px;
-        padding: 0 20px;
-        line-height: 70px;
-        cursor: pointer;
-    }
-    .show:hover {
-        color: var(--white)
-    }
-    .icon {
-        margin-top: 20px;
-        color: var(--primary);
-        display: block;
-        position: absolute;
-        right: 40px;
-        line-height: 70px;
-        font-size: 25px;
-        cursor: pointer;
-    }
-    .lowerHeader ul a:hover {
-        box-shadow: none;
-    }
-    .show+a,
-    .lowerHeader ul {
-        display: none;
-    }
-    [id^=btn]:checked+ul {
-        display: block;
-    }
-}
-
-@media all and (max-width:749px) {
-    /* navigation */
-    /* Search Domain */
-    #domianSearchHeader {
-        font-size: 23px;
-    }
-    #searchDomainButton {
-        width: 20%;
-        padding: 2%;
-        font-size: 1.2rem;
-    }
-    /* Packages */
-    #packagesTiltle {
-        font-size: 23px;
-    }
-    #packagesDescription {
-        font-size: large;
-    }
-    #webHostingPill,
-    #webSecurityPill {
-        max-width: 599px;
-        flex-direction: column;
-        align-items: center;
-    }
-    .packagesNavbar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .nav-pill {
-        display: block;
-        width: 50%
-    }
-    /* Middle Section */
-    .descriptionSection {
-        flex-direction: column;
-    }
-    #performanceAndSpeedSectionResponsive {
-        display: flex;
-        flex-direction: column;
-    }
-    #performanceAndSpeedSection {
-        display: none;
-    }
-    .sectionText {
-        justify-content: center;
-        text-align: center;
-    }
-    .imgSection div img {
-        text-align: center;
-    }
-    .imgSection div img {
-        width: 100%;
-    }
-    #userFriendlyControlPanelSection section {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-    #userFriendlyControlPanelSection section .userFriendlyCPProperties {
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-        padding-left: 0%;
-    }
-    #userFriendlyControlPanelSection section div .imgSection img {
-        width: 100%
-    }
-    /* footer */
-    footer header {
-        flex-direction: column;
-        justify-content: flex-start;
-        margin-left: 30px;
-        margin-right: 0;
-    }
-}
+        /* Upper Header */
+        
+        @media(max-width: 800px) {
+            .nav-bar {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        /* Lower Header */
+        
+        @media all and (max-width:1200px) {
+            .nav-bar {
+                flex-direction: column;
+                align-items: center;
+            }
+            .lowerHeader {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .lowerHeader ul {
+                background-color: var(--darker);
+                opacity: 0.8;
+                float: right;
+                position: absolute;
+                top: 80%;
+                right: 0%;
+                z-index: 101;
+                width: 80vw;
+            }
+            .nav-logo {
+                padding-left: 0px;
+            }
+            .lowerHeader ul li,
+            .lowerHeader ul ul li {
+                background-color: var(--darker);
+                text-align: center;
+                display: block;
+                width: 100%;
+                color: var(--white);
+            }
+            .lowerHeader ul ul {
+                background-color: var(--darker);
+                color: var(--white);
+                top: 70px;
+                position: static;
+                border-top: none;
+                float: none;
+                display: none;
+                opacity: 1;
+                visibility: visible;
+                width: auto;
+            }
+            .lowerHeader ul li a {
+                color: var(--white);
+            }
+            .show {
+                display: block;
+                font-size: 18px;
+                padding: 0 20px;
+                line-height: 70px;
+                cursor: pointer;
+            }
+            .show:hover {
+                color: var(--white)
+            }
+            .icon {
+                margin-top: 20px;
+                color: var(--primary);
+                display: block;
+                position: absolute;
+                right: 40px;
+                line-height: 70px;
+                font-size: 25px;
+                cursor: pointer;
+            }
+            .lowerHeader ul a:hover {
+                box-shadow: none;
+            }
+            .show+a,
+            .lowerHeader ul {
+                display: none;
+            }
+            [id^=btn]:checked+ul {
+                display: block;
+            }
+        }
+        
+        @media all and (max-width:749px) {
+            /* navigation */
+            /* Search Domain */
+            #domianSearchHeader {
+                font-size: 23px;
+            }
+            #searchDomainButton {
+                width: 20%;
+                padding: 2%;
+                font-size: 1.2rem;
+            }
+            /* Packages */
+            #packagesTiltle {
+                font-size: 23px;
+            }
+            #packagesDescription {
+                font-size: large;
+            }
+            #webHostingPill,
+            #webSecurityPill {
+                max-width: 599px;
+                flex-direction: column;
+                align-items: center;
+            }
+            .packagesNavbar {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .nav-pill {
+                display: block;
+                width: 50%
+            }
+            /* Middle Section */
+            .descriptionSection {
+                flex-direction: column;
+            }
+            #performanceAndSpeedSectionResponsive {
+                display: flex;
+                flex-direction: column;
+            }
+            #performanceAndSpeedSection {
+                display: none;
+            }
+            .sectionText {
+                justify-content: center;
+                text-align: center;
+            }
+            .imgSection div img {
+                text-align: center;
+            }
+            .imgSection div img {
+                width: 100%;
+            }
+            #userFriendlyControlPanelSection section {
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+            }
+            #userFriendlyControlPanelSection section .userFriendlyCPProperties {
+                width: 100%;
+                text-align: center;
+                justify-content: center;
+                padding-left: 0%;
+            }
+            #userFriendlyControlPanelSection section div .imgSection img {
+                width: 100%
+            }
+            /* footer */
+            footer header {
+                flex-direction: column;
+                justify-content: flex-start;
+                margin-left: 30px;
+                margin-right: 0;
+            }
+            .askForHelp .content {
+                flex-direction: column;
+            }
+        }
