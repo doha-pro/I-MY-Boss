@@ -142,4 +142,22 @@
     .imgSection div img {
         width: 100%;
     }
+    #userFriendlyControlPanelSection section {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    #userFriendlyControlPanelSection section .userFriendlyCPProperties {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-left: 0%;
+    }
+    /* footer */
+    footer header {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 30px;
+        margin-right: 0;
+    }
 }

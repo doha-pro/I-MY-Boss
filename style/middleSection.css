@@ -1,50 +1,86 @@
-#performanceAndSpeedSectionResponsive {
-    display: none;
-}
-
-.descriptionSection {
-    max-width: 1114px;
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.descriptionSection div {
-    margin: 15px 0;
-}
-
-.sectionText {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-align: left;
-    padding: 16px;
-}
-
-.subHeader {
-    color: #7E7E7E;
-    font-family: "Montserrat", Sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: 0px 0px 15px 0px;
-}
-
-.sectionHeader {
-    font-family: "Poppins", Sans-serif;
-    font-size: 26px;
-    font-weight: 500;
-    margin: 0px 0px 0px 0px;
-}
-
-.sectionText article p {
-    color: #7E7E7E;
-    font-size: 20px;
-}
-
-.imgSection div {
-    width: 50%;
-}
+    #performanceAndSpeedSectionResponsive {
+        display: none;
+    }
+    
+    .descriptionSection {
+        max-width: 1114px;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .descriptionSection div {
+        margin: 15px 0;
+    }
+    
+    .sectionText {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;
+        padding: 16px;
+    }
+    
+    .subHeader {
+        color: #7E7E7E;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 0px 0px 15px 0px;
+    }
+    
+    .sectionHeader {
+        font-family: "Poppins", Sans-serif;
+        font-size: 26px;
+        font-weight: 500;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .sectionText article p {
+        color: #7E7E7E;
+        font-size: 20px;
+    }
+    
+    #userFriendlyCPTitle {
+        display: block;
+        text-align: center;
+        font-family: "Poppins", Sans-serif;
+        font-size: 33px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    
+    #userFriendlyCPDescription {
+        display: block;
+        font-size: x-large;
+        text-align: center;
+        font-weight: 500;
+        margin: 15px 0px;
+    }
+    
+    #userFriendlyControlPanelSection {
+        max-width: 1114px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    #userFriendlyControlPanelSection section {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+    
+    #userFriendlyControlPanelSection section .userFriendlyCPProperties {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: flex-start;
+        padding-left: 20%;
+    }
