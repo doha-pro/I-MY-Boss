@@ -26,9 +26,9 @@
         float: right;
         position: absolute;
         top: 80%;
-        right: 5%;
+        right: 0%;
         z-index: 101;
-        width: 60vw;
+        width: 80vw;
     }
     .nav-logo {
         padding-left: 0px;
@@ -36,7 +36,7 @@
     .lowerHeader ul li,
     .lowerHeader ul ul li {
         background-color: var(--darker);
-        text-align: left;
+        text-align: center;
         display: block;
         width: 100%;
         color: var(--white);
